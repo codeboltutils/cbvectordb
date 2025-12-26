@@ -15,7 +15,7 @@ This repo contains the TypeScript/JavaScript binding for Vectra but other langua
 ## Installation
 
 ```
-$ npm install vectra
+$ npm i cbvectordb
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ $ npm install vectra
 First create an instance of `LocalIndex` with the path to the folder where you want you're items stored:
 
 ```typescript
-import { LocalIndex } from 'vectra';
+import { LocalIndex } from 'cbvectordb';
 
 const index = new LocalIndex(path.join(__dirname, '..', 'index'));
 ```
